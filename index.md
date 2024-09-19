@@ -2,13 +2,38 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
-title: Τα Εφετεία της Ελλάδας
 ---
-Εδώ θα βρείτε πληροφορίες για τα εφετεία της Ελλάδας, μαζί με εικόνες και περιγραφές.
+layout: home
+title: Εφετεία της Ελλάδας
+---
 
-## Εφετείο Σύρου
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="/syros-court.html">
+        <img src="/assets/images/syros-court.jpg" class="d-block w-100" alt="Εφετείο Σύρου">
+      </a>
+    </div>
+    <div class="carousel-item">
+      <a href="/thessaloniki-court.html">
+        <img src="/assets/images/athens-court.jpg" class="d-block w-100" alt="Εφετείο Αθηνών">
+      </a>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-![Εφετείο Σύρου](assets/Σύρος.jpg)
-
-Το Εφετείο Σύρου είναι το μεγαλύτερο εφετείο στην Ελλάδα...
+<!-- Add Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
