@@ -12,6 +12,19 @@ title: Εφετεία της Ελλάδας
     background: #6f42c1 !important;
     background-color: #6f42c1 !important; /* Example background color */
   }
+
+  footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* White text for footer */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
 </style>
 
 <style>
