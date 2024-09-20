@@ -15,12 +15,12 @@ title: Εφετεία της Ελλάδας
   <div class="carousel-inner">
     <div class="carousel-item active">
       <a href="/syros-court.html">
-        <img src="/assets/images/syros-court.jpg" class="d-block w-100" alt="Εφετείο Σύρου">
+        <img src="/assets/images/syros.jpg" class="d-block w-100" alt="Εφετείο Σύρου">
       </a>
     </div>
     <div class="carousel-item">
       <a href="/thessaloniki-court.html">
-        <img src="/assets/images/athens-court.jpg" class="d-block w-100" alt="Εφετείο Αθηνών">
+        <img src="/assets/images/athens.jpg" class="d-block w-100" alt="Εφετείο Αθηνών">
       </a>
     </div>
   </div>
