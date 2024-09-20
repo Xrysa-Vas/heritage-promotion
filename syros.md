@@ -5,6 +5,6 @@ title: Εφετείο Σύρου
 
 ## Εφετείο Σύρου
 
-<img src="{{ site.baseurl }}/assets/syros.jpg" alt="Εφετείο Σύρου" style="width:100%;">
+<img src="site.baseurl/assets/syros.jpg" alt="Εφετείο Σύρου" style="width:100%;">
 
 Το Εφετείο Σύρου εξυπηρετεί την περιοχή των Κυκλάδων και παρέχει δικαστικές υπηρεσίες στα νησιά:
