@@ -2,6 +2,7 @@
 layout: default
 title: Εφετείο Σύρου
 ---
+<a href="{{ site.baseurl }}/" class="btn btn-primary" style="margin-top: 20px;">Αρχική</a>
 
 ## Εφετείο Σύρου
 
