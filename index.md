@@ -6,6 +6,12 @@
 layout: home
 title: Εφετεία της Ελλάδας
 ---
+#<!-- Add inline CSS to change background color -->
+<style>
+  body {
+    background-color: #f0f0f0; /* Example background color */
+  }
+</style>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <ol class="carousel-indicators">
