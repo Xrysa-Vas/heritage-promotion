@@ -56,6 +56,9 @@ title: Εφετεία της Ελλάδας
     <span class="sr-only">Next</span>
   </a>
 </div>
+<footer>
+  <p>{{ site.description }}</p>
+</footer>
 
 <!-- Add Bootstrap CDN -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
