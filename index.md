@@ -24,11 +24,17 @@ title: Εφετεία της Ελλάδας
       <a href="syros.html">
         <img src="assets/syros.jpg" class="d-block w-100" alt="Εφετείο Σύρου">
       </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Εφετείο Σύρου</h5>
+      </div>
     </div>
     <div class="carousel-item">
       <a href="athens.html">
         <img src="assets/athens.jpg" class="d-block w-100" alt="Εφετείο Αθηνών">
       </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Εφετείο Αθηνών</h5>
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
