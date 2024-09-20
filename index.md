@@ -14,6 +14,16 @@ title: Εφετεία της Ελλάδας
   }
 </style>
 
+<style>
+  .carousel-caption h5 {
+    color: #000000; /* Black title text */
+  }
+
+  .carousel-caption p {
+    color: #333333; /* Dark gray subtitle text */
+  }
+</style>
+
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <ol class="carousel-indicators">
     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
