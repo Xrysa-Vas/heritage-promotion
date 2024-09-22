@@ -32,7 +32,7 @@ title: Τα Εφετεία της Ελλάδας
 
     .carousel-item img {
     width: 100%;  /* Full width */
-    height: 200px; /* Set a fixed height (adjust as necessary) */
+    height: 400px; /* Set a fixed height (adjust as necessary) */
     object-fit: cover; /* Ensures the image covers the entire area and scales appropriately */
   }
 </style>
