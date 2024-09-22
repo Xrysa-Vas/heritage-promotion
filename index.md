@@ -1,6 +1,5 @@
 ---
-layout: home
-title: Τα Εφετεία της Ελλάδας
+
 ---
 
 <style>
