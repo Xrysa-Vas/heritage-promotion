@@ -6,8 +6,15 @@ title: Τα Εφετεία της Ελλάδας
 <!-- Add inline CSS to change background color -->
 <style>
   body {
-    background: #42c1a1 !important;
-    background-color: #42c1a1 !important; /* Green background color */
+    background: #f8f9fa !important;
+    background-color: #f8f9fa !important; /* Green background color */
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;  /* Adjust the font size of the title */
+    color: black;  /* Title color */
   }
 
   footer {
@@ -25,7 +32,7 @@ title: Τα Εφετεία της Ελλάδας
 
     .carousel-item img {
     width: 100%;  /* Full width */
-    height: 800px; /* Set a fixed height (adjust as necessary) */
+    height: 500px; /* Set a fixed height (adjust as necessary) */
     object-fit: cover; /* Ensures the image covers the entire area and scales appropriately */
   }
 </style>
