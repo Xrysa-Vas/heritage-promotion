@@ -1,9 +1,11 @@
 ---
+#
+#
+--
 layout: home
 title: Τα Εφετεία της Ελλάδας
 ---
 
-<!-- Add inline CSS to change background color -->
 <style>
   body {
     background: #f8f9fa !important;
