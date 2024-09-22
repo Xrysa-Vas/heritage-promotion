@@ -5,7 +5,7 @@ title: Εφετείο Σύρου
 <style>
   /* Background color */
   body {
-    background-color: #f8f9fa;  /* Green background */
+    background-color: #f8f9fa;  /* Light background */
   }
 
   /* image size */
