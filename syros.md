@@ -2,7 +2,7 @@
 layout: default
 title: Εφετείο Σύρου
 ---
-<a href="" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
+<a href="/heritage-promotion/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
 
 ## Εφετείο Σύρου
 
