@@ -2,7 +2,7 @@
 layout: default
 title: Εφετείο Αθηνών
 ---
-<a href="https://xrysa-vas.github.io/heritage-promotion/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
+<a href="https://xrysa-vas.github.io/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
 
 ## Εφετείο Αθηνών
 
