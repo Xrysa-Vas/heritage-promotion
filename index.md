@@ -9,8 +9,8 @@ title: Τα Εφετεία της Ελλάδας
 <!-- Add inline CSS to change background color -->
 <style>
   body {
-    background: #6f42c1 !important;
-    background-color: #6f42c1 !important; /* purple background color */
+    background: #42c1a1;
+    background-color: #42c1a1; /* Green background color */
   }
 
   footer {
