@@ -5,7 +5,7 @@ title: Εφετείο Αθηνών
 <style>
   /* Background color */
   body {
-    background-color: #da8ee7;  /* Light purple background */
+    background-color: #f8f9fa;  /* Light background */
   }
 
   /* image size */
@@ -14,7 +14,7 @@ title: Εφετείο Αθηνών
     max-width: 800px;  /* Set a maximum width */
     height: auto; /* Maintain aspect ratio */
     display: block;
-    margin: 20px auto;  /* Center the image with margin */
+    /* margin: 20px auto;  /* Center the image with margin */
   }
 </style>
 
