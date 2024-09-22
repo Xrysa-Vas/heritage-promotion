@@ -2,15 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
----
+
 layout: home
 title: Τα Εφετεία της Ελλάδας
 ---
 <!-- Add inline CSS to change background color -->
 <style>
   body {
-    background: #42c1a1;
-    background-color: #42c1a1; /* Green background color */
+    background: #42c1a1 !important;
+    background-color: #42c1a1 !important; /* Green background color */
   }
 
   footer {
