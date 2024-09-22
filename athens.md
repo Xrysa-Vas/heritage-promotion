@@ -2,7 +2,7 @@
 layout: default
 title: Εφετείο Αθηνών
 ---
-<a href="copied-branch/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
+<a href="/heritage-promotion/copied-branch/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
 
 ## Εφετείο Αθηνών
 
