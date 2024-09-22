@@ -5,7 +5,7 @@ title: Εφετείο Σύρου
 <style>
   /* Background color */
   body {
-    background-color: #f0f0f0;  /* Light gray background */
+    background-color: #6f42c1;  /* Purple background */
   }
 
   /* image size */
@@ -18,7 +18,7 @@ title: Εφετείο Σύρου
   }
 </style>
 
-<a href="/" class="btn btn-primary" style="margin-top: 100px;">Αρχική</a>
+<a href="/copied-branch" class="btn btn-primary" style="margin-top: 100px;">Αρχική</a>
 
 ## Εφετείο Σύρου
 
