@@ -2,7 +2,7 @@
 layout: default
 title: Εφετείο Σύρου
 ---
-<a href="https://xrysa-vas.github.io/heritage-promotion/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
+<a href="{{ site.baseurl }}/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
 
 ## Εφετείο Σύρου
 
