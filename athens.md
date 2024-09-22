@@ -2,7 +2,7 @@
 layout: default
 title: Εφετείο Αθηνών
 ---
-<a href="{{ baseurl }}/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
+<a href="/{{ site.baseurl }}/" class="btn btn-primary" style="margin-top: 50px;">Αρχική</a>
 
 ## Εφετείο Αθηνών
 
