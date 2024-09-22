@@ -25,6 +25,12 @@ title: Εφετεία της Ελλάδας
     margin: 0;
     font-size: 14px;
   }
+
+    .carousel-item img {
+    width: 100%;  /* Full width */
+    height: 500px; /* Set a fixed height (adjust as necessary) */
+    object-fit: cover; /* Ensures the image covers the entire area and scales appropriately */
+  }
 </style>
 
 <style>
