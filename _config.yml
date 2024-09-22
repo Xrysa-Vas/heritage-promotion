@@ -20,7 +20,7 @@ description:
   #Ο ιστοχώρος αυτός αναπτύχτηκε από τις Βασιλείου Χρυσάνθη, Καββαδία Ειρήνη και Παναγιώτου Αφροδίτη
   #στα πλαίσια εργασίας του μαθήματος Ψηφιακές Εφαρμογές για την Αγροτική Παραγωγή και το Περιβάλλον
   #του ΠΜΣ Ψηφιακές Εφαρμογές και Καινοτομία του Ιονίου Πανεπιστημίου. 
-baseurl: "heritage-promotion/copied-branch" # the subpath of your site, e.g. /blog
+baseurl: "heritage-promotion" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Xrysa-Vas
