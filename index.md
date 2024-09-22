@@ -4,13 +4,13 @@
 
 ---
 layout: home
-title: Εφετεία της Ελλάδας
+title: Τα Εφετεία της Ελλάδας
 ---
 <!-- Add inline CSS to change background color -->
 <style>
   body {
     background: #6f42c1 !important;
-    background-color: #6f42c1 !important; /* Example background color */
+    background-color: #6f42c1 !important; /* purple background color */
   }
 
   footer {
