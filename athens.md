@@ -5,7 +5,7 @@ title: Εφετείο Αθηνών
 <style>
   /* Background color */
   body {
-    background-color: #42c1a1;  /* Green background */
+    background-color: #f8f9fa;  /* Light background */
   }
 
   /* image size */
