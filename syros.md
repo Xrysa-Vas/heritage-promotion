@@ -13,7 +13,7 @@ title: Εφετείο Σύρου
     width: 100%; /* Full width for responsiveness */
     /* max-width: 800px;  /* Set a maximum width */
     height: auto; /* Maintain aspect ratio */
-    display: block;
+    /* display: block; */
     /* margin: 20px auto;  /* Center the image with margin */
   }
 </style>
