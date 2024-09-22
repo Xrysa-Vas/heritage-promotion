@@ -5,7 +5,7 @@ title: Εφετείο Αθηνών
 <style>
   /* Background color */
   body {
-    background-color: #6f42c1;  /* Purple background */
+    background-color: #42c1a1;  /* Green background */
   }
 
   /* image size */
@@ -18,7 +18,7 @@ title: Εφετείο Αθηνών
   }
 </style>
 
-<a href=" /copied-branch " class="btn btn-primary" style="margin-top: 100px;">Αρχική</a>
+<a href=" /heritage-promotion/ " class="btn btn-primary" style="margin-top: 100px;">Αρχική</a>
 
 ## Εφετείο Αθηνών
 
