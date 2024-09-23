@@ -2,6 +2,8 @@
 layout: default
 title: Εφετείο Σύρου
 ---
+a href="/heritage-promotion/" class="btn btn-primary" style="margin-top: 100px;">Αρχική</a>
+
 <style>
   /* Background color */
   body {
