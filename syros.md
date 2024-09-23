@@ -2,7 +2,6 @@
 layout: default
 title: Εφετείο Σύρου
 ---
-a href="/heritage-promotion/" class="btn btn-primary" style="margin-top: 100px;">Αρχική</a>
 
 <style>
   /* Background color */
@@ -17,6 +16,13 @@ a href="/heritage-promotion/" class="btn btn-primary" style="margin-top: 100px;"
     height: auto; /* Maintain aspect ratio */
     /* display: block; */
     /* margin: 20px auto;  /* Center the image with margin */
+  }
+
+   .home-button {
+    position: absolute;
+    top: 20px;   /* Distance from the top of the page */
+    right: 20px; /* Distance from the right side */
+    z-index: 1000;  /* Make sure it appears above other elements */
   }
 </style>
 
