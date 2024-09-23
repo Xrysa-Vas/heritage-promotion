@@ -26,7 +26,7 @@ title: Εφετείο Σύρου
   }
 </style>
 
-<a href="/heritage-promotion/" class="btn btn-primary";">Αρχική</a>
+<a href="/heritage-promotion/" class="btn btn-primary">Αρχική</a>
 
 ## Εφετείο Σύρου
 
