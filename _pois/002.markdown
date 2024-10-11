@@ -1,7 +1,7 @@
 ---
 layout: poi
 wikidatum: Q130450636
-title:  Εφετείο Κέρκυρας
+title:  Εφετείο Ιωαννίνων
 ---
 
 Sample text  
