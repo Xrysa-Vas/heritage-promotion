@@ -1,7 +1,7 @@
 ---
 layout: poi
 wikidatum: Q130450636
-title:  Κέρκυρα
+title:  Εφετείο Κέρκυρας
 ---
 
 Sample text  
