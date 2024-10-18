@@ -30,12 +30,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-include:
-  - assets/css
-  
-custom_css:
-  - "/assets/css/style.css"
-
 collections:
   pois:
     output: true
