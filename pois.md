@@ -4,14 +4,13 @@ title: POIs
 permalink: /pois/
 ---
 
-<h2>Τα Εφετεία της Ελλάδας</h2>
+<h1>Τα Εφετεία της Ελλάδας</h1>
 <p>Click για περισσότερες πληροφορίες</p>
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-  /* Change the color of the carousel title to dark blue */
   .carousel-caption h5 {
     color: #00008b; /* Dark blue */
   }
