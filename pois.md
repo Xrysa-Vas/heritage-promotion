@@ -11,17 +11,9 @@ permalink: /pois/
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-  .carousel-caption {
-    position: absolute;
-    top: 50%; /* Vertically centers the caption */
-    left: 0;
-    right: 0;
-    text-align: center; /* Horizontally centers the text */
-    padding: 10px;
-  }
-
+  /* Change the color of the carousel title to dark blue */
   .carousel-caption h5 {
-    color: #00008b; /* Dark blue for the title */
+    color: #00008b; /* Dark blue */
   }
 </style>
 
