@@ -7,8 +7,54 @@ permalink: /pois/
 <h2>Τα Εφετεία της Ελλάδας</h2>
 <p>Click για περσσότερες πληροφορίες</p>
 
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS (at the end of body) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<h2>Courts of Greece</h2>
+<p>Click on a court to view more information.</p>
+
+<!-- Carousel Structure -->
+<div id="courtCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    {% for p in site.pois %}
+      <button type="button" data-bs-target="#courtCarousel" data-bs-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %} aria-current="true"></button>
+    {% endfor %}
+  </div>
+
+  <div class="carousel-inner">
+    {% for p in site.pois %}
+      <div class="carousel-item {% if forloop.first %}active{% endif %}">
+        <a href="{{ p.url | relative_url }}">
+          <img src="{{ p.image_url | default: '/assets/default-image.jpg' }}" class="d-block w-100" alt="{{ p.title }}">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>{{ p.title }}</h5>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#courtCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#courtCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+/* Optional: Set a fixed height for the carousel */
+.carousel-item img {
+  height: 500px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image covers the entire carousel area */
+}
+
 <!-- Grid container -->
-<div class="court-grid">
+<!--<div class="court-grid">
   {% for p in site.pois %}
     <a href="{{ p.url | relative_url }}" class="court-card" data-wikidatum="{{ p.wikidatum }}">
       <!-- Placeholder for image and title from Wikidata -->
@@ -16,7 +62,7 @@ permalink: /pois/
       <div class="card-title">{{ p.title }}"></div>
     </a>
   {% endfor %}
-</div>
+</div>-->
 
 <!-- CSS for the grid layout -->
 <style>
