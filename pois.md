@@ -13,16 +13,16 @@ permalink: /pois/
 <style>
   .carousel-caption {
     position: absolute;
-    top: 0;
+    top: 50%; /* Vertically centers the caption */
     left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+    right: 0;
+    transform: translateY(-50%); /* Ensures perfect vertical centering */
+    text-align: center; /* Horizontally centers the text */
     padding: 10px;
   }
 
   .carousel-caption h5 {
     color: #00008b; /* Dark blue for the title */
-    text-align: left; /* Align the title to the left */
   }
 </style>
 
