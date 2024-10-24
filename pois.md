@@ -47,7 +47,7 @@ permalink: /pois/
 <!-- Custom CSS to control image size in carousel -->
 <style>
   .carousel-item img {
-    height: 500px; /* Adjust this height as needed */
+    height: 800px; /* Adjust this height as needed */
     object-fit: cover;
     width: 100%;
   }
