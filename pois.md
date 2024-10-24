@@ -11,10 +11,14 @@ permalink: /pois/
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-  .carousel-caption h5 {
-    color: #00008b; /* Dark blue */
+  .carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+    padding: 10px;
   }
-</style>
 
 <!-- Carousel Structure -->
 <div id="courtCarousel" class="carousel slide" data-bs-ride="carousel">
