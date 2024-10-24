@@ -13,8 +13,6 @@ permalink: /pois/
 <!-- Bootstrap JS (at the end of body) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<h2>Courts of Greece</h2>
-<p>Click on a court to view more information.</p>
 
 <!-- Carousel Structure -->
 <div id="courtCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -26,13 +24,15 @@ permalink: /pois/
 
   <div class="carousel-inner">
     {% for p in site.pois %}
-      <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <a href="{{ p.url | relative_url }}">
-          <img src="{{ p.image_url | default: '/assets/default-image.jpg' }}" class="d-block w-100" alt="{{ p.title }}">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>{{ p.title }}</h5>
-          </div>
-        </a>
+      <div class="carousel-item {% if forloop.first %}active{% endif %}" data-wikidatum="{{ p.wikidatum }}">
+        <div class="carousel-content">
+          <a href="{{ p.url | relative_url }}">
+            <img id="image-{{ p.wikidatum }}" class="d-block w-100" alt="{{ p.title }}">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>{{ p.title }}</h5>
+            </div>
+          </a>
+        </div>
       </div>
     {% endfor %}
   </div>
@@ -46,6 +46,63 @@ permalink: /pois/
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('.carousel-item').each(function() {
+    const wikidatum = $(this).data('wikidatum');
+    get_wikidatum(wikidatum);
+  });
+});
+
+function get_wikidatum(id) {
+  let url = `https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${id}&format=json&languages=en|el&origin=*`;
+  $.getJSON(url, function(data) {
+    const image = get_json_value(['entities', id, 'claims', 'P18', 0, 'mainsnak', 'datavalue', 'value'], data);
+    
+    // Populate the image for the carousel item
+    if (image) {
+      get_thumbnail(image, 1000).then(thumbnailUrl => {
+        $(`#image-${id}`).attr('src', thumbnailUrl);
+      });
+    }
+  });
+}
+
+function get_thumbnail(photoname, size) {
+  return new Promise((resolve, reject) => {
+    if (!photoname) return resolve('');  // Return empty if there's no image
+    photoname = photoname.replace(/ /g, '_');
+    const url = `https://api.wikimedia.org/core/v1/commons/file/File:${photoname}`;
+    $.getJSON(url, function(data) {
+      let thumbname = get_json_value(['thumbnail', 'url'], data);
+      if (thumbname) {
+        thumbname = thumbname.replace(/\/\d+px-/, `/${size}px-`);
+        resolve(thumbname);
+      } else {
+        reject('Thumbnail not found');
+      }
+    }).fail(() => reject('Error fetching thumbnail'));
+  });
+}
+
+// Helper function to access nested JSON data
+function get_json_value(json_key, data) {
+  try {
+    while (json_key.length > 1) {
+      data = data[json_key[0]];
+      json_key = json_key.slice(1);
+    }
+    return data[json_key[0]];
+  } catch (err) {
+    console.error(err, json_key, JSON.stringify(data));
+    return null;
+  }
+}
+</script>
+
 
 /* Optional: Set a fixed height for the carousel */
 .carousel-item img {
