@@ -25,14 +25,12 @@ permalink: /pois/
   <div class="carousel-inner">
     {% for p in site.pois %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}" data-wikidatum="{{ p.wikidatum }}">
-        <div class="carousel-content">
-          <a href="{{ p.url | relative_url }}">
-            <img id="image-{{ p.wikidatum }}" class="d-block w-100" alt="{{ p.title }}">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>{{ p.title }}</h5>
-            </div>
-          </a>
-        </div>
+        <a href="{{ p.url | relative_url }}">
+          <img id="image-{{ p.wikidatum }}" class="d-block w-100" alt="{{ p.title }}">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>{{ p.title }}</h5>
+          </div>
+        </a>
       </div>
     {% endfor %}
   </div>
@@ -46,6 +44,19 @@ permalink: /pois/
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<!-- Add the necessary Bootstrap CSS and JS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom CSS to control image size in carousel -->
+<style>
+.carousel-item img {
+  height: 500px; /* Adjust this height as needed */
+  object-fit: cover;
+  width: 100%;
+}
+</style>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -110,54 +121,7 @@ function get_json_value(json_key, data) {
   object-fit: cover; /* Ensures the image covers the entire carousel area */
 }
 
-<!-- Grid container -->
-<!--<div class="court-grid">
-  {% for p in site.pois %}
-    <a href="{{ p.url | relative_url }}" class="court-card" data-wikidatum="{{ p.wikidatum }}">
-      <!-- Placeholder for image and title from Wikidata -->
-      <div class="card-image" id="image-{{ p.wikidatum }}"></div>
-      <div class="card-title">{{ p.title }}"></div>
-    </a>
-  {% endfor %}
-</div>-->
 
-<!-- CSS for the grid layout -->
-<style>
-  .court-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-  }
-
-  .court-card {
-    text-decoration: none;
-    color: inherit;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-  }
-
-  .court-card:hover {
-    transform: translateY(-5px);
-  }
-
-  .card-image {
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .card-title {
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-  }
-</style>
 
 <!-- Fetch Title and Image from Wikidata -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
