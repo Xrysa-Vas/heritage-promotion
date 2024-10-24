@@ -20,6 +20,12 @@ permalink: /pois/
     padding: 10px;
   }
 
+  .carousel-caption h5 {
+    color: #00008b; /* Dark blue for the title */
+    text-align: left; /* Align the title to the left */
+  }
+</style>
+
 <!-- Carousel Structure -->
 <div id="courtCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
