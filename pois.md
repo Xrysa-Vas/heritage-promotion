@@ -16,7 +16,6 @@ permalink: /pois/
     top: 50%; /* Vertically centers the caption */
     left: 0;
     right: 0;
-    transform: translateY(-50%); /* Ensures perfect vertical centering */
     text-align: center; /* Horizontally centers the text */
     padding: 10px;
   }
