@@ -11,7 +11,7 @@ layout: home
     width: 80%; /* Adjust the width as needed */
     height: 400px; /* Adjust the height as needed */
     margin: 50px auto; /* Centers the container on the page */
-    background-image: url('{{ "/assets/images/background.jpg" | relative_url }}');
+    background-image: url('{{ "/assets/images/Εφετεία.jpg" | relative_url }}');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
