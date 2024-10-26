@@ -4,13 +4,6 @@ title: Σχετικά
 permalink: /about/
 ---
 
-<style>
-  body {
-    background-color: #1565c0; /* Darker blue */
-    color: #ffffff; /* White text for better readability */
-  }
-</style>
-
 Εκτός από blog posts μπορείτε να έχετε και permanent pages, τα αρχεία από τα οποία παράγονται αυτές βρίσκονται στο root φακελο του ιστοτόπου
 αλλά μπορούν στο front matter τους να δηλώνουν σε ποιο permanent link αντιστοιχούν.  
 Παράδειγμα μιας permanent page αποτελεί η τρέχουσα σελίδα η οποία περιγράφει λίγα στοιχεία για το theme _minima_ στο οποίο βασίζεται αυτός ο ιστότοπος.
