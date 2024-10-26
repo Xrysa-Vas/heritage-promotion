@@ -8,9 +8,9 @@ layout: home
 <!-- Inline CSS for a centered image container -->
 <style>
   .center-background {
-    width: 80%; /* Adjust the width as needed */
-    height: 400px; /* Adjust the height as needed */
-    margin: 50px auto; /* Centers the container on the page */
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
     background-image: url('{{ "/assets/images/Εφετεία.jpg" | relative_url }}');
     background-size: cover;
     background-position: center;
@@ -31,4 +31,6 @@ layout: home
 
 <!-- Homepage Content-->
 <h1>Καλώς ήρθατε στα Εφετεία της Ελλάδας</h1>
+Η σελίδα αυτή έχει ως σκοπό της να σας παρουσιάσει τα Εφετεία της Ελλάδας,, τα οποία είναι 19 σε σύνολο. 
+Παρέχονται πληροφορίες για το κάθε ένα ξεχωριστά που αφορούν την ιστορία τους, πλούσιο φωτογραφικό υλικό από τις προσόψεις των κτιρίων και την τοποθεσία στην οποία βρίσκονται.
 
