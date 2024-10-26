@@ -3,7 +3,6 @@ layout: page
 title: Τα Εφετεία της Ελλάδας
 permalink: /pois/
 ---
-
 <p>Click για περισσότερες πληροφορίες</p>
 
 <!-- Bootstrap CSS -->
@@ -15,15 +14,15 @@ permalink: /pois/
   }
 
   .carousel-item img {
-    width: 100%;
-    height: 100vh;
+    width: 100% !important;
+    height: 100vh !important;
   object-fit: cover; 
   }
 
-  .carousel {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  .carousel,
+  .carousel-inner {
+    width: 100% !important;
+    height: 100vh !important;
 }
 </style>
 
