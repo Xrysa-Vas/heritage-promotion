@@ -5,17 +5,32 @@
 layout: home
 ---
 
+<!-- Inline CSS for a centered image container -->
 <style>
-  body {
-    background-image: url('{{ "/assets/images/Εφετεία.jpg" | relative_url }}');
-    background-size: cover; /* Ensures the image covers the whole screen */
-    background-position: center; /* Centers the image */
-    background-attachment: fixed; /* Keeps the image fixed during scrolling */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    color: #ffffff; /* Sets text color to white for readability */
+  .center-background {
+    width: 80%; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    margin: 50px auto; /* Centers the container on the page */
+    background-image: url('{{ "/assets/images/background.jpg" | relative_url }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* Optional: white text color for readability */
+    text-align: center; /* Center-align text inside the container */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    padding: 20px;
   }
 </style>
 
-<!-- Content of the Homepage -->
+<!-- Centered Image Container -->
+<div class="center-background">
+  <h1>Welcome to Εφετεία της Ελλάδας</h1>
+  <p>Click for more information on each court.</p>
+</div>
+
+<!-- Homepage Content-->
 <h1>Καλώς ήρθατε στα Εφετεία της Ελλάδας</h1>
 
