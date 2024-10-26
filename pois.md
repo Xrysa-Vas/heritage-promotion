@@ -35,6 +35,20 @@ permalink: /pois/
     margin: 0;
     width: 100%;
   }
+
+  /* Style of carousel controls (arrows) */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #00008b; /* Dark blue color for the arrows */
+    width: 50px; /* Optional: adjust the size */
+    height: 50px; /* Optional: adjust the size */
+    border-radius: 50%; /* Optional: makes the background circular */
+  }
+
+  .carousel-control-prev:hover .carousel-control-prev-icon,
+  .carousel-control-next:hover .carousel-control-next-icon {
+    background-color: #4B0082; /* Indigo color on hover */
+  }
 </style>
 
 <!-- Carousel Structure -->
