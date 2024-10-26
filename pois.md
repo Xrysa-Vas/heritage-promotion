@@ -9,8 +9,30 @@ permalink: /pois/
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-  .carousel-caption h4 {
-    color: #00008b; /* Dark blue */
+  /* Ensures full width and height for carousel images */
+  .carousel,
+  .carousel-inner,
+  .carousel-item {
+    width: 100%;
+    min-height: 100vh; /* Ensures carousel takes the full viewport height */
+  }
+
+  .carousel-item img {
+    width: 100% !important;         /* Full width */
+    height: 100vh !important;       /* Full viewport height */
+    object-fit: cover !important;   /* Image covers the entire carousel area */
+  }
+
+  /* Title color in dark blue */
+  .carousel-caption h5 {
+    color: #00008b !important; /* Dark blue */
+  }
+
+  /* Remove potential padding and margin on parent containers */
+  .container, .content, .page {
+    padding: 0;
+    margin: 0;
+    width: 100%;
   }
 </style>
 
@@ -26,9 +48,12 @@ permalink: /pois/
     {% for p in site.pois %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}" data-wikidatum="{{ p.wikidatum }}">
         <a href="{{ p.url | relative_url }}">
-          <img id="image-{{ p.wikidatum }}" class="d-block w-100" alt="{{ p.title }}">
+          <!-- Inline styles for testing full-width image display -->
+          <img id="image-{{ p.wikidatum }}" class="d-block w-100" 
+               style="width: 100% !important; height: 100vh !important; object-fit: cover !important;" 
+               alt="{{ p.title }}">
           <div class="carousel-caption d-none d-md-block">
-            <h5>{{ p.title }}</h5>
+            <h5>{{ p.title }}</h5> <!-- Title with dark blue color -->
           </div>
         </a>
       </div>
