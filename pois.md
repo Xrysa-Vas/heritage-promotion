@@ -3,8 +3,6 @@ layout: page
 title: Εφετεία
 permalink: /pois/
 ---
-
-<!-- Main Header Section -->
 <div class="header-section">
   <h1 class="main-title">Τα Εφετεία της Ελλάδας</h1>
   <nav class="permanent-pages">
