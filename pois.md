@@ -23,8 +23,8 @@ permalink: /pois/
   }
 
   /* Title color in dark blue */
-  .carousel-caption h5 {
-    color: #00008b !important; /* Dark blue */
+  .carousel-caption h3 {
+    color: #00008b !important;
   }
 
   /* Remove potential padding and margin on parent containers */
