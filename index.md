@@ -27,8 +27,6 @@ layout: home
 
 <!-- Centered Image Container -->
 <div class="center-background">
-  <h1>Welcome to Εφετεία της Ελλάδας</h1>
-  <p>Click for more information on each court.</p>
 </div>
 
 <!-- Homepage Content-->
