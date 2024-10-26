@@ -1,10 +1,9 @@
 ---
 layout: page
-title: POIs
+title: Τα Εφετεία της Ελλάδας
 permalink: /pois/
 ---
 
-<h1>Τα Εφετεία της Ελλάδας</h1>
 <p>Click για περισσότερες πληροφορίες</p>
 
 <!-- Bootstrap CSS -->
@@ -14,6 +13,18 @@ permalink: /pois/
   .carousel-caption h4 {
     color: #00008b; /* Dark blue */
   }
+
+  .carousel-item img {
+    width: 100%;
+    height: 100vh;
+  object-fit: cover; 
+  }
+
+  .carousel {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 </style>
 
 <!-- Carousel Structure -->
@@ -49,15 +60,6 @@ permalink: /pois/
 
 <!-- Add the necessary Bootstrap JS at the end of the body -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Custom CSS to control image size in carousel -->
-<style>
-  .carousel-item img {
-    width: 100%;
-    height: 100vh;
-  object-fit: cover; 
-  }
-</style>
 
 <!-- JQuery Script to Fetch Title and Image from Wikidata -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
