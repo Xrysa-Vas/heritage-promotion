@@ -6,7 +6,8 @@ permalink: /about/
 
 <style>
   body {
-    background-color: #1565c0;
+    background-color: #1565c0; /* Darker blue */
+    color: #ffffff; /* White text for better readability */
   }
 </style>
 
