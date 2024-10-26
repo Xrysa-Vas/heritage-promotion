@@ -2,7 +2,6 @@
 layout: page
 title: Εφετεία
 permalink: /pois/
-
 ---
 
 <p>Click για περισσότερες πληροφορίες</p>
