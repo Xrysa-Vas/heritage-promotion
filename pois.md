@@ -1,33 +1,9 @@
 ---
 layout: page
-title: Τα Εφετεία της Ελλάδας 
+title: POIs List
 permalink: /pois/
 
 ---
-
-<style>
-  body {
-      background-color: #333333;
-      color: #f1f1f1;
-  }
-
-  header, footer, .container, .content, .navbar, .nav-bar {
-      background-color: #333333;
-      color: #f1f1f1;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-      color: #ffffff;
-  }
-
-  a {
-      color: #1E90FF;
-  }
-
-  a:hover {
-      color: #FFD700;
-  }
-</style>
 
 <p>Click για περισσότερες πληροφορίες</p>
 
