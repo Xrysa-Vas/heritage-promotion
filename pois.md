@@ -4,22 +4,15 @@ title: Εφετεία
 permalink: /pois/
 ---
 
-<p>Click για περισσότερες πληροφορίες</p>
-
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-  body {
-    background-color: #e0f7fa; /* Light blue background color */
-  }
-  
-  /* Ensures full width and height for carousel images */
   .carousel,
   .carousel-inner,
   .carousel-item {
     width: 100%;
-    min-height: 100vh; /* Ensures carousel takes the full viewport height */
+    min-height: 100vh;
   }
 
   .carousel-item img {
