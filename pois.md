@@ -1,6 +1,6 @@
 ---
 layout: page
-title: POIs List
+title: Τα Εφετεία της Ελλάδας
 permalink: /pois/
 
 ---
