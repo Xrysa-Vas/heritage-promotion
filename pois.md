@@ -35,23 +35,41 @@ permalink: /pois/
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-  /* Ensures full width and height for carousel images */
-  .carousel,
-  .carousel-inner,
-  .carousel-item {
-    width: 100%;
-    min-height: 100vh; /* Ensures carousel takes the full viewport height */
-  }
-
+  /* Full-width and full-height carousel images */
   .carousel-item img {
-    width: 100% !important;         /* Full width */
-    height: 100vh !important;       /* Full viewport height */
-    object-fit: cover !important;   /* Image covers the entire carousel area */
+    width: 100% !important;
+    height: 80vh !important; /* Adjust height as needed */
+    object-fit: cover; /* Ensures image covers entire area without stretching */
   }
 
-  /* Title color in dark blue */
-  .carousel-caption h5 {
-    color: #00008b !important; /* Dark blue */
+  /* Centering carousel captions */
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Dark background for readability */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  /* Caption title styling */
+  .carousel-caption h4 {
+    color: #1E90FF; /* Dark blue text */
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  /* Carousel indicators for dark background */
+  .carousel-indicators [data-bs-target] {
+    background-color: #f1f1f1;
+  }
+
+  /* Carousel navigation buttons for dark theme */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #f1f1f1; /* Light color for navigation icons */
   }
 
   /* Remove potential padding and margin on parent containers */
