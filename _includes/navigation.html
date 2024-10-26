@@ -1,25 +1,34 @@
-<div class="header-nav">
-  <a href="/related" class="nav-item">Σχετικά</a>
-  <a href="/pois" class="nav-item">Τα Εφετεία της Ελλάδας</a>
+<div class="top-nav">
+  <a href="/related" class="nav-link">Σχετικά</a>
+  <a href="/pois" class="nav-link">Τα Εφετεία της Ελλάδας</a>
 </div>
 
 <style>
-  /* Styling for the navigation bar */
-  .header-nav {
+  /* Styling for the top navigation bar */
+  .top-nav {
     display: flex;
-    justify-content: center; /* Center the navigation items */
-    background-color: #333;  /* Dark background */
-    padding: 10px;
+    justify-content: center;       /* Center the links horizontally */
+    background-color: #333;        /* Dark background */
+    padding: 10px 0;
+    position: fixed;               /* Fix to the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000;                 /* Ensure it stays on top */
   }
 
-  .nav-item {
-    color: #ffffff;         /* White text for better visibility */
+  .nav-link {
+    color: #ffffff;                /* White text for links */
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 15px;                /* Spacing between links */
     font-weight: bold;
   }
 
-  .nav-item:hover {
-    color: #FFD700;         /* Gold color*/
+  .nav-link:hover {
+    color: #FFD700;                /* Gold color on hover */
+  }
+
+  /* Ensure content doesn’t go under the fixed nav bar */
+  body {
+    margin-top: 50px;              /* Adjust based on the nav bar height */
   }
 </style>
