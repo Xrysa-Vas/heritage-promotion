@@ -66,7 +66,7 @@ permalink: /pois/
                style="width: 100% !important; height: 100vh !important; object-fit: cover !important;" 
                alt="{{ p.title }}">
           <div class="carousel-caption d-none d-md-block">
-            <h5>{{ p.title }}</h5> <!-- Title with dark blue color -->
+            <h3>{{ p.title }}</h3> <!-- Title with dark blue color -->
           </div>
         </a>
       </div>
