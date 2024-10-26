@@ -13,17 +13,25 @@ permalink: /pois/
     color: #00008b; /* Dark blue */
   }
 
+  .carousel,
+  .carousel-inner,
+  .carousel-item {
+    width: 100%;
+    min-height: 100vh; /* Ensure carousel takes full viewport height */
+  }
+
   .carousel-item img {
     width: 100% !important;
     height: 100vh !important;
-  object-fit: cover; 
+    object-fit: cover; /* Ensures the image fills the entire carousel */
   }
 
-  .carousel,
-  .carousel-inner {
-    width: 100% !important;
-    height: 100vh !important;
-}
+/* Remove padding and margin on parent elements */
+  .container, .content, .page {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
 </style>
 
 <!-- Carousel Structure -->
