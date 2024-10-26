@@ -4,6 +4,16 @@ title: Εφετεία
 permalink: /pois/
 ---
 
+<!-- Main Header Section -->
+<div class="header-section">
+  <h1 class="main-title">Τα Εφετεία της Ελλάδας</h1>
+  <nav class="permanent-pages">
+    <a href="/relative_link_to_sxetika" class="nav-link">Σχετικά</a>
+    <a href="/relative_link_to_efeteia" class="nav-link">Εφετεία</a>
+    <a href="/relative_link_to_team" class="nav-link">Η ομάδα μας</a>
+  </nav>
+</div>
+
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
