@@ -11,7 +11,7 @@ permalink: /pois/
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
-  .carousel-caption h5 {
+  .carousel-caption h4 {
     color: #00008b; /* Dark blue */
   }
 </style>
@@ -53,9 +53,9 @@ permalink: /pois/
 <!-- Custom CSS to control image size in carousel -->
 <style>
   .carousel-item img {
-    height: 800px; /* Adjust this height as needed */
-    object-fit: cover;
     width: 100%;
+    height: 100vh;
+  object-fit: cover; 
   }
 </style>
 
