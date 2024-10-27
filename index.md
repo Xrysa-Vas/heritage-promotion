@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+logo: "/assets/images/Εφετεία.jpeg" # path of site logo, e.g. "/assets/images/Εφετεία.jpeg"
 ---
 
 <!-- Inline CSS for a centered image container -->
