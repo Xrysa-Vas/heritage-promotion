@@ -26,7 +26,7 @@ logo: "/assets/images/Εφετεία.jpeg" # path of site logo, e.g. "/assets/im
   }
 
   body {
-    background-color: #808080;
+    background-color: #C0C0C0;
   }
 
 </style>
