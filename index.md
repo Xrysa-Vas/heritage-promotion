@@ -23,6 +23,11 @@ layout: home
     border-radius: 8px; /* Optional: adds rounded corners */
     padding: 20px;
   }
+
+  body {
+    background-color: #808080;
+  }
+
 </style>
 
 <!-- Centered Image Container -->
