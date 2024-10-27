@@ -47,6 +47,11 @@ permalink: /pois/
   .carousel-control-next:hover .carousel-control-next-icon {
     background-color: #4B0082; /* Indigo color on hover */
   }
+
+  body {
+    background-color: #C0C0C0;
+  }
+
 </style>
 
 <!-- Carousel Structure -->
