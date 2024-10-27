@@ -3,6 +3,11 @@ layout: page
 title: Σχετικά
 permalink: /about/
 ---
+<style>
+  body {
+    background-color: #C0C0C0;
+  }
+</style>
 
 Εκτός από blog posts μπορείτε να έχετε και permanent pages, τα αρχεία από τα οποία παράγονται αυτές βρίσκονται στο root φακελο του ιστοτόπου
 αλλά μπορούν στο front matter τους να δηλώνουν σε ποιο permanent link αντιστοιχούν.  
