@@ -4,6 +4,9 @@
 
 layout: home
 ---
+
+![](/assets/images/Εφετεία.jpeg)
+
 <style>
   body {
     background-color: #C0C0C0;
