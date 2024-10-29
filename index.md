@@ -5,7 +5,7 @@
 layout: home
 ---
 
-![](/assets/images/Εφετεία.jpeg)
+![](heritage-promotion/assets/images/Εφετεία.jpeg)
 
 <style>
   body {
