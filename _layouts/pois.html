@@ -46,15 +46,13 @@
     font-size: 18px;
   }
 
-  /* Fixed 3-column layout for POI grid */
   .court-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
-    padding: 20px;
+    margin-top: 20px;
   }
 
-  /* Card styles */
   .court-card {
     text-decoration: none;
     color: inherit;
@@ -69,7 +67,6 @@
     transform: translateY(-5px);
   }
 
-  /* Image and title inside each card */
   .card-image {
     width: 100%;
     height: 150px;
@@ -82,19 +79,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 16px;
-  }
-
-  /* Responsive design: adjust to fewer columns on small screens */
-  @media (max-width: 768px) {
-    .court-grid {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
-    }
-  }
-
-  @media (max-width: 480px) {
-    .court-grid {
-      grid-template-columns: 1fr; /* 1 column on small screens */
-    }
   }
 </style>
 
