@@ -1,8 +1,13 @@
 ---
 layout: page
-title: POIs List
+title: Εφετεία
 permalink: /pois/
 ---
+<style>
+  body {
+    background-color: #C0C0C0;
+  }
+</style>
 
 <h2>Τα Εφετεία της Ελλάδας</h2>
 <p>Click για περσσότερες πληροφορίες</p>
