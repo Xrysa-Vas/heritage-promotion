@@ -25,41 +25,47 @@ permalink: /pois/
 
 <!-- CSS for the grid layout -->
 <style>
-.court-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates a responsive grid */
-    gap: 20px; /* Space between grid items */
+  .court-grid {
+    display: grid !important; /* Force grid display */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+    gap: 20px !important;
     margin-top: 20px;
-    width: 100%; /* Ensures the grid takes full width of the container */
-}
+    width: 100% !important;
+  }
 
-.court-card {
-    text-decoration: none;
-    color: inherit;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
+  /* Individual card styling */
+  .court-card {
+    text-decoration: none !important;
+    color: inherit !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+    transition: transform 0.3s !important;
+    display: block !important;
+  }
 
-.court-card:hover {
-    transform: translateY(-5px);
-}
+  /* Hover effect on the cards */
+  .court-card:hover {
+    transform: translateY(-5px) !important;
+  }
 
-.card-image {
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-    background-position: center;
-}
+  /* Image styling within each card */
+  .card-image {
+    width: 100% !important;
+    height: 150px !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
 
-.card-title {
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-}
+  /* Title styling for each card */
+  .card-title {
+    padding: 10px !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    color: #00008b; /* Dark blue title color */
+  }
 </style>
 
 <!-- Fetch Title and Image from Wikidata -->
