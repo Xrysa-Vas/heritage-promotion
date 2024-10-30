@@ -25,14 +25,15 @@ permalink: /pois/
 
 <!-- CSS for the grid layout -->
 <style>
-  .court-grid {
+.court-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates a responsive grid */
+    gap: 20px; /* Space between grid items */
     margin-top: 20px;
-  }
+    width: 100%; /* Ensures the grid takes full width of the container */
+}
 
-  .court-card {
+.court-card {
     text-decoration: none;
     color: inherit;
     border: 1px solid #ddd;
@@ -40,25 +41,25 @@ permalink: /pois/
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
-  }
+}
 
-  .court-card:hover {
+.court-card:hover {
     transform: translateY(-5px);
-  }
+}
 
-  .card-image {
+.card-image {
     width: 100%;
     height: 150px;
     background-size: cover;
     background-position: center;
-  }
+}
 
-  .card-title {
+.card-title {
     padding: 10px;
     text-align: center;
     font-weight: bold;
     font-size: 16px;
-  }
+}
 </style>
 
 <!-- Fetch Title and Image from Wikidata -->
