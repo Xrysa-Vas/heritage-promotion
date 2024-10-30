@@ -10,7 +10,7 @@ permalink: /pois/
 </style>
 
 <h2>Τα Εφετεία της Ελλάδας</h2>
-<p>Click για περσσότερες πληροφορίες</p>
+<p>Click για περισσότερες πληροφορίες</p>
 
 <!-- Grid container -->
 <div class="court-grid">
@@ -18,7 +18,7 @@ permalink: /pois/
     <a href="{{ p.url | relative_url }}" class="court-card" data-wikidatum="{{ p.wikidatum }}">
       <!-- Placeholder for image and title from Wikidata -->
       <div class="card-image" id="image-{{ p.wikidatum }}"></div>
-      <div class="card-title">{{ p.title }}"></div>
+      <div class="card-title">{{ p.title }}</div>
     </a>
   {% endfor %}
 </div>
@@ -80,7 +80,7 @@ function get_wikidatum(id) {
 
     // Populate the title and image for each court card
     if (title) {
-      $(`#title-${id}`).text(title);
+      $(`[data-wikidatum="${id}"] .card-title`).text(title);
     }
 
     if (image) {
